@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gibadullina</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav_fill">
+          <ul class="right">
+            <li><a href="#" id="openLogin">Войти</a></li>
+            <li><a href="#" id="openComments">Комментарии</a></li>
+          </ul>
+        </div>
+
+        <div class="modal" id="myModal">
+          <div class="modal-content">
+            <span class="close"><img src="close.png" alt="Закрыть" /></span>
+            <div class="modal_fill">
+              <h3>Вход</h3>
+              <form>
+                <p class="input">Телефон</p>
+                <input type="number" />
+              </form>
+              <button class="vhodbtn">Вход</button>
+              <div class="bottom_buttons">
+                <a href="" class="left">Регистрация</a>
+                <a href="" class="right">Забыли пароль?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal2" id="myModal2">
+          <div class="modal-content2">
+            <span class="close"><img src="close.png" alt="Закрыть" /></span>
+            <div class="modal_fill2">
+              <h3>Комментарии</h3>
+              <div class="comment">
+                <p class="top">Дмитрий (курьер) 21.01.2021</p>
+                <p class="commentariy">
+                  У клиента были гнилые половина помидоров. Он сказал возьмет их. Надо возместить бонусами.
+                </p>
+              </div>
+              <div class="comment">
+                <p class="top">Аня (менеджер) 22.02.2021</p>
+                <p class="commentariy">
+                  Созвонились с клиентом. Я начислила 50 балов.
+                </p>
+              </div>
+              <form>
+                <input type="textarea" />
+              </form>
+              <button class="otpravkabtn">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="main.js"></script>
+  </body>
+</html>
